@@ -1,6 +1,6 @@
 # Known Issues & Hardware Limitations (Cyton Architecture)
 
-This document outlines the known architectural bottlenecks, component deprecations, and performance limitations inherent to this specific hardware configuration (ADS1299 + PIC32MX + RFduino). Contributors and developers looking to fork or iterate on this design should review these challenges before manufacturing.
+This document outlines the known architectural bottlenecks, component deprecations, and performance limitations inherent to this specific hardware configuration (ADS1299 + PIC32MX + RFduino). 
 
 ---
 
@@ -26,7 +26,7 @@ This document outlines the known architectural bottlenecks, component deprecatio
 ---
 
 ## Proposed Next-Generation Upgrades
-If you are modifying this repository for a modern production run, it is highly recommended to abandon the legacy PIC32 + RFduino dual-chip layout and upgrade to:
+These are the updates we can do to it
 1. **ESP32-S3 or nRF52840 SoC:** Replaces both legacy chips, lowers build cost by roughly ₹1,000, adds native Bluetooth 5.0/Wi-Fi, and provides hardware encryption.
 2. **On-Board ARM Cortex Core:** Grants the processing power required to execute on-device filtering and basic machine learning classification before transmitting data.1. Cost of the instrumentation amplifier is high- we need to find alternative to it
    
