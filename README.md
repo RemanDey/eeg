@@ -24,6 +24,7 @@ Circuit Diagram:(this is the opensource circuit-currently working on the custo c
 
 ROugh Circut diagram for the eeg submodule:
 <img width="838" height="310" alt="eeg circuit diagram" src="https://github.com/user-attachments/assets/98ed4bdc-581e-4b3e-b280-47554836bbd1" />
+<br>
 Rough Breadboard Implementation of the circuit:
 <img width="362" height="286" alt="eeg breadboard" src="https://github.com/user-attachments/assets/abe0f9d4-5627-4767-9166-fa3163ca5c63" />
 
