@@ -1,5 +1,6 @@
 Repository Structure:
-The Resources folder contains learning resources for the implementation of the EEG device
+1.The Resources folder contains learning resources for the implementation of the EEG device
+2.THe PROBLEMS.md file contains the current problems
 
 
 Components needed:
