@@ -19,5 +19,5 @@ Components needed:
 | **Battery Holder / JST Connection** | 2-pin JST-PH connector for 3-6V Battery Input | 1 | ₹67.20 | ₹67.20 |
 | **TOTAL ESTIMATED COST** | | | | **₹6,185.20** |
 
-Circuit Diagram:
-<img width="5037" height="3237" alt="image" src="https://github.com/user-attachments/assets/b83968f6-8dbb-411b-bc5c-96e01ce6df37" />
+Circuit Diagram:(this is the opensource circuit-currently working on the custo circuit)
+<img width="5037" height="3237" alt="OPEN BCI CYTON CIRCUIT DIAGRAM" src="https://github.com/user-attachments/assets/b83968f6-8dbb-411b-bc5c-96e01ce6df37" />
