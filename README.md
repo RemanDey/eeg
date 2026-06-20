@@ -1,3 +1,7 @@
+Repository Structure:
+The Resources folder contains learning resources for the implementation of the EEG device
+
+
 Components needed:
 
 | Component Name | Description | Qty | Estimated Unit Price (INR) | Total Price (INR) |
