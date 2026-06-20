@@ -23,5 +23,8 @@ Circuit Diagram:(this is the opensource circuit-currently working on the custo c
 <img width="5037" height="3237" alt="OPEN BCI CYTON CIRCUIT DIAGRAM" src="https://github.com/user-attachments/assets/b83968f6-8dbb-411b-bc5c-96e01ce6df37" />
 
 ROugh Circut diagram for the eeg submodule:
-<img width="838" height="310" alt="image" src="https://github.com/user-attachments/assets/98ed4bdc-581e-4b3e-b280-47554836bbd1" />
+<img width="838" height="310" alt="eeg circuit diagram" src="https://github.com/user-attachments/assets/98ed4bdc-581e-4b3e-b280-47554836bbd1" />
+Rough Breadboard Implementation of the circuit:
+<img width="362" height="286" alt="eeg breadboard" src="https://github.com/user-attachments/assets/abe0f9d4-5627-4767-9166-fa3163ca5c63" />
+
 
