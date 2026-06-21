@@ -3,7 +3,7 @@ Repository Structure:
 1.  The Resources folder contains learning resources for the implementation of the EEG device
 2.  THe PROBLEMS.md file contains the current problems
 3.  The NOVELITY.md file contains the novel features adding to this project
-
+FRONTEND FOR THE EEG IS LIVE HERE : https://eeg-data-visualizer.onrender.com
 <h1>COMPONENTS NEEDED FOR THE BREADBOARD VERIFICATION OF THE CIRCUIT</h1>
 # EEG Data Logger Component Cost Breakdown
 
