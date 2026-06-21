@@ -4,6 +4,41 @@ Repository Structure:
 2.  THe PROBLEMS.md file contains the current problems
 3.  The NOVELITY.md file contains the novel features adding to this project
 
+<h1>COMPONENTS NEEDED FOR THE BREADBOARD VERIFICATION OF THE CIRCUIT</h1>
+# EEG Data Logger Component Cost Breakdown
+
+Here is a comprehensive breakdown of the components required to build a simple, standalone EEG Data Logger using Upside Down Labs circuits, complete with estimated market prices in India (INR).
+
+### 1. Component Price List
+
+| # | Component Name | Description | Source / Vendor | Est. Price (INR) |
+|---|----------------|-------------|-----------------|------------------|
+| 1 | **BioAmp EXG Pill** (Assembled) | Analog Front-End (AFE) for filtering & amplifying brain signals. Includes 1x BioAmp Cable v3 & 3x Jumper wires. | Upside Down Labs / Robu.in | ₹2,599 |
+| 2 | **Brain BioAmp Band** or **Gel Electrodes** | For dry electrode placement or a reusable set of pre-gelled Ag/AgCl disposable electrodes (Pack of 30+). | Upside Down Labs | ₹599 |
+| 3 | **Arduino Nano / ESP32** | Microcontroller with an ADC to read analog data from the EXG Pill and interface with the SD card. | Local Electronic Store / Robu | ₹350 |
+| 4 | **MicroSD Card SPI Module** | Breakout board allowing the microcontroller to write `.csv`/`.txt` data streams onto an SD card. | Local Electronic Store / Robu | ₹80 |
+| 5 | **MicroSD Card (8GB / 16GB)** | Standard Class 10 MicroSD card to save log files. | Amazon / Local Store | ₹250 |
+| 6 | **MB102 Breadboard + Jumper Wires** | Half/Full-sized breadboard with male-to-male & male-to-female wire pack for solderless prototyping. | Local Electronic Store / Robu | ₹180 |
+| 7 | **Portable Power Bank / Battery** | 5V USB output power bank to safely isolate the circuit from AC mains noise and prevent shock hazards. | Retail Store / Amazon | ₹499 |
+| **-** | **Total Estimated Budget** | **Complete hardware setup for 1-channel standalone EEG logger.** | **-** | **~₹4,557** |
+
+---
+
+### 2. Wiring Guide
+
+follow this configuration to route the amplified signals into the logging unit:
+
+| BioAmp EXG Pill Pin | Microcontroller (e.g., Arduino Nano) | SD Card Module (SPI) | Notes |
+|---------------------|---------------------------------------|----------------------|-------|
+| **VCC** | 5V or 3.3V                            | VCC                  | Power rail connection |
+| **GND** | GND                                   | GND                  | Common Ground (Essential) |
+| **OUT** | Analog Pin `A0`                       | -                    | Transmits raw analog EEG waveform |
+| -                   | Digital Pin `D13`                     | **SCK** / Clock      | SPI Clock |
+| -                   | Digital Pin `D12`                     | **MISO** | SPI Master In Slave Out |
+| -                   | Digital Pin `D11`                     | **MOSI** | SPI Master Out Slave In |
+| -                   | Digital Pin `D4` (or any IO)          | **CS** / Chip Select | Controlled via `SD.begin(4)` |
+
+---
 
 Components needed:
 | Component Name | Description | Qty | Estimated Unit Price (INR) | Total Price (INR) |
